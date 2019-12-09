@@ -43,5 +43,5 @@ jobs:
 
     # Run the ebuild tests
     - uses: hacking-gentoo/action-ebuild-test@master
-      env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+      with:
+        package_only: true
