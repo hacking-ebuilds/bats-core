@@ -4,11 +4,8 @@
 EAPI=7
 
 DESCRIPTION="An automated testing system for bash"
-HOMEPAGE="egit"
-SRC_URI="https://github.com/bats-core/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-
+HOMEPAGE="https://github.com/bats-core"
 LICENSE="MIT"
-SLOT="0"
 
 if [[ ${PV} = *9999* ]]; then
 	inherit git-r3
