@@ -11,7 +11,6 @@ if [[ ${PV} = *9999* ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/bats-core/bats-core.git"
 	EGIT_BRANCH="master"
-	EGIT_COMMIT="v1.1.0"
 else
 	SRC_URI="https://github.com/bats-core/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 fi
