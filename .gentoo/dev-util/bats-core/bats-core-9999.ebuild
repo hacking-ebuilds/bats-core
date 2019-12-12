@@ -21,7 +21,7 @@ SLOT="0"
 
 RESTRICT="!test? ( test )"
 
-RDEPEND="app-shells/bash"
+RDEPEND="app-shells/bash:0"
 DEPEND="test? ( ${RDEPEND} )"
 
 src_test() {
