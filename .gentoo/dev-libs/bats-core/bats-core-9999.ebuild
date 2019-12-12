@@ -26,7 +26,7 @@ RDEPEND="app-shells/bash"
 DEPEND="test? ( ${RDEPEND} )"
 
 src_test() {
-	TERM="dumb" bin/bats --tap test || die "Tests failed"
+	bin/bats --tap test || die "Tests failed"
 }
 
 src_install() {
