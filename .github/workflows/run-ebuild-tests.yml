@@ -2,8 +2,6 @@ name: Ebuild Tests
 
 on:
   push:
-    tags-ignore:
-      - '*'
     paths-ignore:
       - 'README.md'
       - 'LICENSE'
